@@ -1139,11 +1139,19 @@ header h1 {
 }
 
 /* line 12, ../_sass/main.scss */
-nav ul {
-  text-align: center;
+nav {
+  margin-left: 0!important;
 }
 
 /* line 16, ../_sass/main.scss */
+nav ul {
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: .618rem 0;
+}
+
+/* line 23, ../_sass/main.scss */
 nav ul li {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.098rem;
@@ -1154,13 +1162,13 @@ nav ul li {
   padding: 0;
 }
 
-/* line 26, ../_sass/main.scss */
+/* line 33, ../_sass/main.scss */
 nav ul li::before {
   content: "•";
   padding: 0 1em 0 0;
 }
 
-/* line 31, ../_sass/main.scss */
+/* line 38, ../_sass/main.scss */
 nav ul li:last-of-type::after {
   content: "•";
   padding: 0 0 0 1em;
