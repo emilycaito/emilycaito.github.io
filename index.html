@@ -2,6 +2,14 @@
 layout: default
 title: emilycaito.com
 ---
+<div class="sixteen columns">
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><a href="{{ post.url }}" class="post-title"><h2>{{ post.title }}</h2></a><span class="meta"><span class="smallcaps">{{ post.date | date_to_string }}</span></li>
+      {{ post.excerpt }}
+    {% endfor %}
+  </ul>
+</div>
 		<div class="one-third column">
 			<h3>About</h3>
 			<p>Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>

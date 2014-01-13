@@ -645,7 +645,7 @@ body {
 ================================================== */
 /* line 66, ../_sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
-  color: #181818;
+  color: #7e493d;
   font-family: 'FranchiseRegular', 'Helvetica Neue', Arial, sans-serif;
   font-weight: normal;
   text-transform: uppercase;
@@ -783,7 +783,7 @@ hr {
 /* line 103, ../_sass/_base.scss */
 a, a:visited {
   color: #333;
-  text-decoration: underline;
+  text-decoration: none;
   outline: 0;
 }
 
@@ -1140,14 +1140,15 @@ legend span {
 header h1 {
   text-shadow: white 1px 1px 0px, white -1px -1px 0px, white -1px 1px 0px, white 1px -1px 0px, #804e42 1px 1px 0, #804e42 1px 2px 0, #804e42 2px 2px 0, #804e42 2px 3px 0, #804e42 3px 3px 0;
   text-align: center;
+  color: #333333;
 }
 
-/* line 12, ../_sass/main.scss */
+/* line 13, ../_sass/main.scss */
 nav {
   margin-left: 0!important;
 }
 
-/* line 16, ../_sass/main.scss */
+/* line 17, ../_sass/main.scss */
 nav ul {
   text-align: center;
   border-top: 1px solid #ddd;
@@ -1155,7 +1156,7 @@ nav ul {
   padding: .618rem 0;
 }
 
-/* line 23, ../_sass/main.scss */
+/* line 24, ../_sass/main.scss */
 nav ul li {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.098rem;
@@ -1166,16 +1167,21 @@ nav ul li {
   padding: 0;
 }
 
-/* line 33, ../_sass/main.scss */
+/* line 34, ../_sass/main.scss */
 nav ul li::before {
   content: "•";
   padding: 0 1em 0 0;
 }
 
-/* line 38, ../_sass/main.scss */
+/* line 39, ../_sass/main.scss */
 nav ul li:last-of-type::after {
   content: "•";
   padding: 0 0 0 1em;
+}
+
+/* line 44, ../_sass/main.scss */
+nav ul li a, nav ul li a:visited {
+  color: #7e493d;
 }
 
 /* @import "animate"; */

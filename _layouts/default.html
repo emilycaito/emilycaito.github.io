@@ -37,12 +37,17 @@
 				<h1  style="margin-top: 40px">Emily Caito</h1>
 				<nav class="sixteen columns add-bottom">
 					<ul>
-						<li>Bio
-						</li>
-						<li>Gallery
-						</li>
-						<li>Exhibitions
-						</li>
+						{% for weight in (1..10) %}
+							{% for p in site.pages %}
+								{% if p.weight == weight %}
+									<li>
+										<a title="{{ p.title }}"{% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+											{{ p.title }}
+										</a>
+									</li>
+								{% endif %}
+							{% endfor %}
+						{% endfor %}
 					</ul>
 				</nav>
 			</header>

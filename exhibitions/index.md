@@ -1,8 +1,8 @@
 ---
 layout: default
-title: bio
+title: exhibitions
 permalink: /
-weight: 1
+weight: 3
 ---
 
 Emily Caito is an emerging artist currently residing in Cincinnati, Ohio.  She combines complex geometric shapes with elegant poses to create a delicate sense of gesture.  This work shows an in depth investigation into the study of anatomy along with a critical understanding of the importance of expression throughout the figure.  The forms not only refer to the organic character of the figure, but also signify something that is completely industrial and mechanical.  
