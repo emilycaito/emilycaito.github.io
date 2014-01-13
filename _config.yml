@@ -1,0 +1,4 @@
+name:      "emilycaito.com"
+markdown:  redcarpet
+pygments:  true
+permalink: pretty
