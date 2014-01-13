@@ -30,29 +30,37 @@
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		html {
+			font-size: 90%;
+		}
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 481px) and (max-width: 767px) {
+		html {
+			font-size: 85%;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		html {
+			font-size: 71%;
+		}
+	}
 
 
 /* #Font-Face
 ================================================== */
-/* 	This is the proper syntax for an @font-face file
-		Just create a "fonts" folder at the root,
-		copy your FontName into code below and remove
-		comment brackets */
 
-/*	@font-face {
-	    font-family: 'FontName';
-	    src: url('../fonts/FontName.eot');
-	    src: url('../fonts/FontName.eot?iefix') format('eot'),
-	         url('../fonts/FontName.woff') format('woff'),
-	         url('../fonts/FontName.ttf') format('truetype'),
-	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
-	    font-weight: normal;
-	    font-style: normal; }
-*/
+	@font-face {
+	  font-family: 'FranchiseRegular';
+	  src: url('/font/franchise-bold-webfont.eot'); /* IE9 Compat Modes */
+	  src: url('/font/franchise-bold-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('/font/franchise-bold-webfont.woff') format('woff'), /* Modern Browsers */
+	       url('/font/franchise-bold-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+	       url('/font/franchise-bold-webfont.svg#d845bf4960429831b378d1cea05a19d5') format('svg'); /* Legacy iOS */
+	  font-style:   normal;
+	  font-weight:  400;
+	}
