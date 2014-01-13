@@ -6,6 +6,31 @@
 
 header h1 {
 	text-shadow: #fff 1px 1px 0px, #fff -1px -1px 0px, #fff -1px 1px 0px, #fff 1px -1px 0px, #804e42 1px 1px 0, #804e42 1px 2px 0, #804e42 2px 2px 0, #804e42 2px 3px 0, #804e42 3px 3px 0;
+	text-align: center;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 1.098rem;
+	font-style: italic;
+	text-transform: uppercase;
+	display: inline;
+	margin: 0 1em 0 0;
+	padding: 0;
+}
+
+nav ul li::before {
+	content: "•";
+	padding: 0 1em 0 0;
+}
+
+nav ul li:last-of-type::after {
+	content: "•";
+	padding: 0 0 0 1em;
 }
 
 /* @import "animate"; */

@@ -634,7 +634,7 @@ table {
 /* line 54, ../_sass/_base.scss */
 body {
   background: #fff;
-  font: 1.313rem/1.618em "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 1.313rem/1.618em "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
   color: #444;
   -webkit-font-smoothing: subpixel-antialiased;
   /* Fix for webkit rendering */
@@ -1131,9 +1131,39 @@ legend span {
 	    font-weight: normal;
 	    font-style: normal; }
 */
+/* Modular Scale ---------------------- 21px @ 1:1.618	 46px @ 1:1.618	 ----------------------*/
 /* line 7, ../_sass/main.scss */
 header h1 {
   text-shadow: white 1px 1px 0px, white -1px -1px 0px, white -1px 1px 0px, white 1px -1px 0px, #804e42 1px 1px 0, #804e42 1px 2px 0, #804e42 2px 2px 0, #804e42 2px 3px 0, #804e42 3px 3px 0;
+  text-align: center;
+}
+
+/* line 12, ../_sass/main.scss */
+nav ul {
+  text-align: center;
+}
+
+/* line 16, ../_sass/main.scss */
+nav ul li {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.098rem;
+  font-style: italic;
+  text-transform: uppercase;
+  display: inline;
+  margin: 0 1em 0 0;
+  padding: 0;
+}
+
+/* line 26, ../_sass/main.scss */
+nav ul li::before {
+  content: "•";
+  padding: 0 1em 0 0;
+}
+
+/* line 31, ../_sass/main.scss */
+nav ul li:last-of-type::after {
+  content: "•";
+  padding: 0 0 0 1em;
 }
 
 /* @import "animate"; */
