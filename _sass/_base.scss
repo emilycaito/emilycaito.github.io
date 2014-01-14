@@ -53,10 +53,11 @@
 ================================================== */
 	body {
 		background: #fff;
-		font: 1.313rem/1.618em "HelveticaNeue", "Helvetica Neue", Arial, sans-serif;
+		font: 1.313rem/1.618em 'Abel', 'Helvetica Neue', Arial, sans-serif;
 		color: #444;
 		-webkit-font-smoothing: subpixel-antialiased; /* Fix for webkit rendering */
 		-webkit-text-size-adjust: 100%;
+		text-rendering: optimizelegibility;
  }
 
 
@@ -64,12 +65,12 @@
 ================================================== */
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #7e493d;
-		font-family: 'FranchiseRegular', 'Helvetica Neue', Arial, sans-serif;
+		color: #444;
+		font-family: 'PT Serif', Georgia, Times, 'Times New Roman', serif;
 		font-weight: normal;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
-		-webkit-font-smoothing: antialiased;
+		-webkit-font-smoothing: subpixel-antialiased;
 	}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
 	h1 { font-size: 3.436rem; line-height: 4.652rem; margin-bottom: 1.098rem;}
@@ -125,9 +126,11 @@
 /* #Images
 ================================================== */
 
-	img.scale-with-grid {
+	img {
 		max-width: 100%;
-		height: auto; }
+		height: auto; 
+		margin: 1em 0;
+	}
 
 
 /* #Buttons
@@ -251,7 +254,7 @@
 		box-shadow:  0 0 3px rgba(0,0,0,.2); }
 	textarea {
 		min-height: 60px; }
-	label,
+	lAbel,
 	legend {
 		display: block;
 		font-weight: bold;
@@ -260,7 +263,7 @@
 		width: 220px; }
 	input[type="checkbox"] {
 		display: inline; }
-	label span,
+	lAbel span,
 	legend span {
 		font-weight: normal;
 		font-size: 13px;
