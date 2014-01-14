@@ -5,25 +5,8 @@ title: emilycaito.com
 <div class="sixteen columns">
   <ul class="posts">
     {% for post in site.posts %}
-      <li><a href="{{ post.url }}" class="post-title"><h2>{{ post.title }}</h2></a><span class="meta"><span class="smallcaps">{{ post.date | date_to_string }}</span></li>
-      {{ post.excerpt }}
+      <li><p class="categories meta remove-bottom">{{ post.categories | join: ', ' }}</p><a href="{{ post.url }}" class="post-title"><h2 class="remove-bottom">{{ post.title }}</h2></a><span class="meta">{{ post.date | date_to_string }}</span>
+      {{ post.excerpt }}</li>
     {% endfor %}
   </ul>
 </div>
-		<div class="one-third column">
-			<h3>About</h3>
-			<p>Sed posuere consectetur est at lobortis. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>
-		</div>
-		<div class="one-third column">
-			<h3>Contact</h3>
-			<p>Curabitur blandit tempus porttitor.:</p>
-			<ul class="square">
-				<li>Curabitur blandit tempus porttitor.</li>
-				<li>Curabitur blandit tempus porttitor.</li>
-				<li>Curabitur blandit tempus porttitor.</li>
-			</ul>
-		</div>
-		<div class="one-third column">
-			<h3>Support</h3>
-			<p>Nulla vitae elit libero, a pharetra augue. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis.</p>
-		</div>

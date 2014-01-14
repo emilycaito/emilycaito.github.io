@@ -1184,6 +1184,18 @@ nav ul li a, nav ul li a:visited {
   color: #7e493d;
 }
 
+/* line 48, ../_sass/main.scss */
+.posts li {
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 52, ../_sass/main.scss */
+.meta {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.811rem;
+}
+
 /* @import "animate"; */
 /* @import "syntax"; */
 /* @import "accordion"; */

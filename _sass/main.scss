@@ -45,6 +45,16 @@ nav ul li a, nav ul li a:visited {
 	color: #7e493d;
 }
 
+.posts li {
+	border-bottom: 1px solid #ddd;
+}
+
+.meta {
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	font-size: 0.811rem;
+}
+
 /* @import "animate"; */
 
 /* @import "syntax"; */

@@ -7,9 +7,6 @@ categories:
   - in the studio
   - show
 ---
-&nbsp;
-
-&nbsp;
 
 [<img class="alignnone size-medium wp-image-111" alt="cheetah screenprint" src="http://emilycaito.com/wp-content/uploads/2013/02/IMG_1326-300x300.jpg" width="300" height="300" />][1]
 

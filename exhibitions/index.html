@@ -1,0 +1,14 @@
+---
+layout: default
+title: exhibitions
+permalink: /
+weight: 3
+---
+<div class="sixteen columns">
+  <ul class="posts">
+    {% for post in site.categories.show %}
+		<li><a href="{{ post.url }}" class="post-title"><h2 class="remove-bottom">{{ post.title }}</h2></a><span class="meta">{{ post.date | date_to_string }}</span>
+      {{ post.content }}</li>
+    {% endfor %}
+  </ul>
+</div>
