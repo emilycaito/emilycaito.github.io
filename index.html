@@ -11,14 +11,14 @@ title: emilycaito.com
   </ul>
 </div>
 <!-- Pagination links -->
-<div class="pagination add-bottom">
+<div class="sixteen columns pagination add-bottom">
   {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+    <a href="/page{{ paginator.previous_page }}" class="previous">Newer Posts&nbsp;&nbsp;•&nbsp;&nbsp;</a>
   {% else %}
-    <span class="previous">Previous</span>
+    <span class="previous">Newer Posts&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   {% endif %}
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    <a href="/page{{ paginator.next_page }}" class="next">Older Posts</a>
   {% else %}
     <span class="next ">Next</span>
   {% endif %}
