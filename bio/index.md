@@ -10,7 +10,7 @@ weight: 1
 
 <div class="twelve columns offset-by-three">
 
-<img class="alignleft size-full wp-image-74" title="Emily" src="http://emilycaito.com/wp-content/uploads/2010/12/em.jpg" alt="" width="500" height="375" /><br />
+<img class="alignleft size-full wp-image-74" title="Emily" src="/img/uploads/2010/12/em.jpg" alt="" width="500" height="375" /><br />
 
 Emily Caito is an emerging artist currently residing in Cincinnati, Ohio.  She combines complex geometric shapes with elegant poses to create a delicate sense of gesture.  This work shows an in depth investigation into the study of anatomy along with a critical understanding of the importance of expression throughout the figure.  The forms not only refer to the organic character of the figure, but also signify something that is completely industrial and mechanical.  
  

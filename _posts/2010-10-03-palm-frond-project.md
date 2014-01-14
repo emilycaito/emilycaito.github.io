@@ -13,24 +13,24 @@ A while back, we got a call at the foundry from a cemetary in Indiana about recr
 
 &nbsp;
 
-[<img class="alignleft size-full wp-image-56" title="DSC00580" src="http://emilycaito.com/wp-content/uploads/2010/10/DSC00580.jpg" alt="" width="216" height="288" />][1]
+[<img class="alignleft size-full wp-image-56" title="DSC00580" src="/img/uploads/2010/10/DSC00580.jpg" alt="" width="216" height="288" />][1]
 
 **sculpting in the studio**
 
-*[<img class="alignleft size-full wp-image-57" title="DSC00686" src="http://emilycaito.com/wp-content/uploads/2010/10/DSC00686.jpg" alt="" width="216" height="288" />][2]  
+*[<img class="alignleft size-full wp-image-57" title="DSC00686" src="/img/uploads/2010/10/DSC00686.jpg" alt="" width="216" height="288" />][2]  
 *
 
 ***the finished casting***
 
-*[<img class="alignleft size-full wp-image-59" title="DSC01064" src="http://emilycaito.com/wp-content/uploads/2010/10/DSC010641.jpg" alt="" width="216" height="288" />][3]  
+*[<img class="alignleft size-full wp-image-59" title="DSC01064" src="/img/uploads/2010/10/DSC010641.jpg" alt="" width="216" height="288" />][3]  
 *
 
 ****installed!****
 
-*[<img class="alignleft size-full wp-image-60" title="DSC01069" src="http://emilycaito.com/wp-content/uploads/2010/10/DSC01069.jpg" alt="" width="216" height="288" />][4]  
+*[<img class="alignleft size-full wp-image-60" title="DSC01069" src="/img/uploads/2010/10/DSC01069.jpg" alt="" width="216" height="288" />][4]  
 *
 
- [1]: http://emilycaito.com/wp-content/uploads/2010/10/DSC00580.jpg
- [2]: http://emilycaito.com/wp-content/uploads/2010/10/DSC00686.jpg
- [3]: http://emilycaito.com/wp-content/uploads/2010/10/DSC010641.jpg
- [4]: http://emilycaito.com/wp-content/uploads/2010/10/DSC01069.jpg
+ [1]: /img/uploads/2010/10/DSC00580.jpg
+ [2]: /img/uploads/2010/10/DSC00686.jpg
+ [3]: /img/uploads/2010/10/DSC010641.jpg
+ [4]: /img/uploads/2010/10/DSC01069.jpg
