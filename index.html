@@ -6,7 +6,7 @@ title: emilycaito.com
   <ul class="posts">
     {% for post in paginator.posts %}
       <li><p class="categories meta remove-bottom">{{ post.categories | join: ', ' }}</p><a href="{{ post.url }}" class="post-title"><h3 class="remove-bottom">{{ post.title }}</h3></a><span class="meta">{{ post.date | date_to_string }}</span>
-      {{ post.excerpt }}</li>
+      {{ post.content }}</li>
     {% endfor %}
   </ul>
 </div>

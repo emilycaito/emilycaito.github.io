@@ -1,6 +1,7 @@
 @import "skeleton";
 @import "base";
 @import "layout";
+@import "magnific";
 @import url(http://fonts.googleapis.com/css?family=Abel|PT+Mono|PT+Serif:400,400italic);
 
 /* Variables */
@@ -47,8 +48,8 @@ nav ul li::before {
 	padding: 0 1em 0 0;
 }
 
-nav ul li:last-of-type::after {
-	content: "•";
+nav ul li:first-of-type::before {
+	content: "";
 	padding: 0 0 0 1em;
 }
 
@@ -65,6 +66,14 @@ nav ul li a, nav ul li a:visited {
 	letter-spacing: 0.08em;
 	font-size: 0.811rem;
 	font-family: 'PT Mono', "Courier New", Courier, monospace;
+}
+
+ul.gallery-container {
+	list-style: none;
+}
+
+ul.gallery-container li {
+	display: inline;
 }
 
 /* @import "animate"; */
