@@ -1705,6 +1705,20 @@ ul.gallery-container li {
   display: inline;
 }
 
+/* line 79, ../_sass/main.scss */
+footer {
+  font-family: 'PT Mono', "Courier New", Courier, monospace;
+  font-size: 1.098rem;
+  font-weight: normal;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+/* line 87, ../_sass/main.scss */
+footer p {
+  margin-top: 20px;
+}
+
 /* @import "animate"; */
 /* @import "syntax"; */
 /* @import "accordion"; */
