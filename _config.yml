@@ -1,6 +1,6 @@
 name:      "emilycaito.com"
 markdown:  redcarpet
-pygments:  true
+highlighter:  null
 permalink: pretty
 paginate: 5
 exclude: ['responsive.html']

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: bio
-permalink: /
+permalink: /bio/
 weight: 1
 ---
 <div class="post twelve columns offset-by-three">

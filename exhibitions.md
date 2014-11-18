@@ -1,7 +1,7 @@
 ---
 layout: page
 title: exhibitions
-permalink: /
+permalink: /exhibitions/
 weight: 3
 ---
 
