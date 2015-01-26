@@ -10,4 +10,3 @@ Please join me on Friday February 13th at the 5th Street Gallery for the opening
 
 I am looking forward to the show. Hope to see you there!
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
